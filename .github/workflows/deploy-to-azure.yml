@@ -22,7 +22,7 @@ jobs:
         run: npm install
 
       - name: Build
-        run: node server.js # Adjust this command based on your project setup
+        run: node .\server.js # Adjust this command based on your project setup
 
       - name: Deploy to Azure Web App
         uses: azure/webapps-deploy@v2
